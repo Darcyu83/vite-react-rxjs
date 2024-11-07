@@ -1,5 +1,5 @@
-import { eventEmitter } from "../utils/event/event";
-import { EventNames } from "../utils/event/eventNames";
+import { eventEmitter } from "../../utils/event/event";
+import { EventNames } from "../../utils/event/eventNames";
 
 interface IProps {}
 

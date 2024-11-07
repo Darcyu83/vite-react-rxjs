@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import { eventEmitter, unsubscribe } from "../utils/event/event";
-import { EventNames } from "../utils/event/eventNames";
+import { eventEmitter, unsubscribe } from "../../utils/event/event";
+import { EventNames } from "../../utils/event/eventNames";
 
 interface IProps {}
 

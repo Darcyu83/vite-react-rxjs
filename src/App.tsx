@@ -1,5 +1,6 @@
-import Receiver from "./Receiver/Receiver";
-import Sender from "./Sender/Sender";
+import Receiver from "./eventEmitter/Receiver/Receiver";
+import Sender from "./eventEmitter/Sender/Sender";
+import WorkerThread from "./multiThread/WorkerThread";
 
 function App() {
   // const [count, setCount] = useState(0);
@@ -9,6 +10,10 @@ function App() {
       <h1>Test event emitter</h1>
       <Sender />
       <Receiver />
+
+      <hr />
+
+      <WorkerThread />
     </div>
   );
 }
