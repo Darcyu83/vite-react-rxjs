@@ -13,10 +13,10 @@ export const sendMessage = () => {
 
 export const receiveMessage = () => {
   let message = "default";
-  eventEmitter.on(EventNames.MESSAGE, (message) => {
-    console.log(`${EventNames.MESSAGE} :: `, message);
+  eventEmitter.on(EventNames.MESSAGE, (_message) => {
+    console.log(`${EventNames.MESSAGE} :: `, _message);
 
-    message = message;
+    message = _message;
   });
 
   return message;

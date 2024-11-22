@@ -1,6 +1,7 @@
 import Receiver from "./eventEmitter/Receiver/Receiver";
 import Sender from "./eventEmitter/Sender/Sender";
 import WorkerThread from "./multiThread/WorkerThread";
+import TicTacToeGame from "./tickTacToe";
 
 function App() {
   // const [count, setCount] = useState(0);
@@ -14,6 +15,9 @@ function App() {
       <hr />
 
       <WorkerThread />
+      <hr />
+
+      <TicTacToeGame />
     </div>
   );
 }
